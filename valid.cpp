@@ -12,19 +12,19 @@ is validated, the integer is squared and printed.
 #include <iostream>
 using namespace std;
 
-int main ()
-{
+int main () {
   int n, square;
 
   cout << "Please enter an integer: ";
   cin >> n;
 
-  while ((n >= 100) || (n <= 0))
-  {
+  while ((n >= 100) || (n <= 0)) {
     cout << "Please re-enter: ";
     cin >> n;
   }
 
   square = n * n;
   cout << "Number squared is " << square << endl;
+
+  return 0;
 }
